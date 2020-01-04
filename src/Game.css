@@ -1,0 +1,208 @@
+.Game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+
+.Game .titulo {
+	text-align: center;
+	font-size: 2rem;
+	margin: 30px;
+	color: white;
+}
+
+.Game .input {
+	width: 70%;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 500;
+	color: white;
+}
+
+.Game .input input {
+	width: 70%;
+	font-size: 2rem;
+	margin: 15px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.Game .input input:focus {
+	outline: none;
+}
+
+.Game .input .botones {
+	margin: 0 auto;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Game .input .botones button {
+	font-size: 1.5rem;
+	border: none;
+	padding: 8px 15px;
+	margin: 0 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.Game .input .botones button:focus {
+	outline: none;
+}
+
+.Game .input .botones button:hover {
+	cursor: pointer;
+}
+
+/* BOTON VERDE */
+.Game .input .botones .btn-verde {
+	background-color: rgb(70, 214, 70);
+	border: 2px solid rgb(70, 214, 70);
+	color: white;
+	transition: all 0.2s ease-in-out;
+}
+
+.Game .input .botones .btn-verde:hover {
+	background-color: rgba(70, 214, 70, 0.4);
+}
+
+/* BOTON ROJO */
+.Game .input .botones .btn-rojo {
+	background-color: rgb(226, 69, 69);
+	border: 2px solid rgb(226, 69, 69);
+	color: white;
+	transition: all 0.2s ease-in-out;
+}
+.Game .input .botones .btn-rojo:hover {
+	background-color: rgba(226, 69, 69, 0.4);
+}
+
+/* BOTON DESACTIVADO */
+.Game .input .botones .btn-desactivado {
+	background-color: rgb(75, 75, 75);
+	border: 2px solid rgb(75, 75, 75);
+	color: white;
+	transition: all 0.2s ease-in-out;
+}
+.Game .input .botones .btn-desactivado:hover {
+	background-color: rgba((75, 75, 75), 0.4);
+	cursor: default;
+}
+
+.Game .inferior {
+	display: flex;
+	width: 60%;
+	margin: 20px auto;
+	justify-content: center;
+}
+
+.Game .inferior div {
+	text-align: center;
+	min-width: 33%;
+	margin: 10px;
+	background-color: rgb(71, 71, 71);
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.Game .inferior .cantidad,
+.Game .inferior .timer,
+.Game .inferior .contacto {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Game .inferior .cantidad p {
+	margin: 5px auto;
+}
+
+.Game .inferior .cantidad input {
+	border-radius: 5px;
+	border: none;
+	font-size: 1.1rem;
+	width: 30%;
+	padding: 5px;
+	text-align: center;
+	margin: 5px auto;
+}
+
+.Game .inferior .contacto i {
+	margin: 5px;
+}
+
+.Game .inferior .contacto i:hover {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 800px) {
+	.Game * {
+		font-size: 1.2rem;
+	}
+	.Game .input input {
+		width: 80%;
+		font-size: 1rem;
+		margin: 15px;
+		padding: 5px 10px;
+		border-radius: 5px;
+		border: 1px solid grey;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+	}
+
+	.Game .inferior .cantidad p,
+	.Game .inferior .timer p,
+	.Game .inferio .contacto p {
+		font-size: 0.8rem;
+	}
+
+	.Game .inferior .cantidad input {
+		font-size: 1rem;
+		width: 40%;
+		padding: 5px;
+		text-align: center;
+		margin: 5px auto;
+	}
+
+	.Game .input .botones button {
+		font-size: 1rem;
+	}
+}
+
+.growing {
+	-webkit-animation: growing 0.7s ease-in-out infinite alternate-reverse both;
+	animation: growing 0.7s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes growing {
+	0% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@keyframes growing {
+	0% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
