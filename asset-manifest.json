@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/escribeYA/static/css/main.a31f63bf.chunk.css",
+    "main.js": "/escribeYA/static/js/main.3664153b.chunk.js",
+    "main.js.map": "/escribeYA/static/js/main.3664153b.chunk.js.map",
+    "runtime-main.js": "/escribeYA/static/js/runtime-main.e19cf794.js",
+    "runtime-main.js.map": "/escribeYA/static/js/runtime-main.e19cf794.js.map",
+    "static/js/2.fe64193a.chunk.js": "/escribeYA/static/js/2.fe64193a.chunk.js",
+    "static/js/2.fe64193a.chunk.js.map": "/escribeYA/static/js/2.fe64193a.chunk.js.map",
+    "index.html": "/escribeYA/index.html",
+    "precache-manifest.96d3ce80b00d2ae9a7685cccffa69759.js": "/escribeYA/precache-manifest.96d3ce80b00d2ae9a7685cccffa69759.js",
+    "service-worker.js": "/escribeYA/service-worker.js",
+    "static/css/main.a31f63bf.chunk.css.map": "/escribeYA/static/css/main.a31f63bf.chunk.css.map",
+    "static/js/2.fe64193a.chunk.js.LICENSE": "/escribeYA/static/js/2.fe64193a.chunk.js.LICENSE",
+    "static/media/App.css": "/escribeYA/static/media/bg.0654a011.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e19cf794.js",
+    "static/js/2.fe64193a.chunk.js",
+    "static/css/main.a31f63bf.chunk.css",
+    "static/js/main.3664153b.chunk.js"
+  ]
+}
